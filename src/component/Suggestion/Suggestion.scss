@@ -1,0 +1,23 @@
+
+.container-box {
+    position: absolute;
+    display: -ms-flexbox;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    width: 100%;
+    padding:0;
+    list-style: none;
+    box-shadow: 6px 6px 5px #aaaaaa;
+
+    li {
+        padding: 8px;
+        font-size: 14px;
+        &:hover {
+            background: aliceblue;
+        }
+    }
+}

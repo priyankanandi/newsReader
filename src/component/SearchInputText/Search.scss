@@ -1,0 +1,23 @@
+.search-box {
+    position: relative;
+    width: 40%;
+    z-index: 1;
+    box-shadow: 3px 3px 2px #aaaaaa;
+    border-radius: 4px;
+
+    input.search-list {
+      position: relative;
+      width: 100%;
+      padding: 0.6rem 4rem 0.6rem 1rem;
+      border-radius: 4px;
+      font-size: 14px;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+    }
+    .search-text-hide {
+      visibility: hidden;
+    }
+    .search-text {
+      visibility: visible;
+      color: #e03e3e;
+    }
+  }

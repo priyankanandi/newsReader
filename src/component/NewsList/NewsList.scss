@@ -1,0 +1,12 @@
+.news-list {
+    margin: 30px 0;
+    a {
+        text-decoration: none !important;
+    }
+    .card-body {
+        .col-3 {
+            display: flex;
+            margin: auto;
+        }
+    }
+}

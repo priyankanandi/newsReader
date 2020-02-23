@@ -1,0 +1,16 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
+body, html {
+	height: 100%;
+  font-family: sans-serif;
+  background: aliceblue;
+  font-size: 12px;
+
+  .pointer {
+    cursor: pointer;
+  }
+  
+  .navbar-brand {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,59 @@
+.Pagination {
+  display: flex;
+  justify-content: center;
+
+  .pagination > li > a, {
+    position: relative;
+    float: left;
+    padding: 1rem 1.5rem;
+    margin-left: -0.062rem;
+    color: #7f819a;
+    text-decoration: none;
+    background-color: white;
+    border: 0.0625rem solid #cecfe0;
+  }
+  .pagination > li:first-child > a,
+  .pagination > li:first-child > span {
+    margin-left: 0;
+    border-top-left-radius: 0.1875rem;
+    border-bottom-left-radius: 0.1875rem;
+  }
+  .pagination > li:last-child > a,
+  .pagination > li:last-child > span {
+    border-top-right-radius: 0.1875rem;
+    border-bottom-right-radius: 0.1875rem;
+  }
+  .pagination > li > a:hover,
+  .pagination > li > span:hover,
+  .pagination > li > a:focus,
+  .pagination > li > span:focus {
+    z-index: 2;
+    color: #0380f6;
+    background-color: #eee;
+    border: 0.0625rem solid #cecfe0;
+  }
+  .pagination > .active > a,
+  .pagination > .active > span,
+  .pagination > .active > a:hover,
+  .pagination > .active > span:hover,
+  .pagination > .active > a:focus,
+  .pagination > .active > span:focus {
+    z-index: 3;
+    color: #0380f6;
+    cursor: default;
+    border-color: #0380f6;
+  }
+  .pagination > .disabled > span,
+  .pagination > .disabled > span:hover,
+  .pagination > .disabled > span:focus,
+  .pagination > .disabled > a,
+  .pagination > .disabled > a:hover,
+  .pagination > .disabled > a:focus {
+    color: #D4D4D4;
+    cursor: not-allowed;
+    background-color: white;
+  }
+  .paginate-icon-size{
+    font-size: 1rem ;
+  }
+}
